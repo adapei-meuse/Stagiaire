@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
+    background-color: rgb(21, 21, 21);
+}
+
+.titre {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255)
+}
+
+.logo-verry-small {
+    width: 50px;
+    height: auto;
+}
+
+.logo-uniform {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.logo-small {
+    width: 100px;
+    height: auto;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+.text-dark {
+    color: #000;
+}
+
+.text-center {
+    height: 50%;
+}
+
+.img-thumbnail {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    max-height: 150px;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    color: rgb(25, 18, 90)
+}
+
+.text {
+    color: white
+}
+
+.table {
+    background-color: #ffffff;
+    color: #000000;
+}
+.thead-dark th {
+    border-color: #343a40;
+}
+
+.img-thumbnail:hover {
+    transform: rotate(360deg);
+}
+
+.rotate {
+    animation: rotateImage 2s linear;
+}
+
+@keyframes rotateImage {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
